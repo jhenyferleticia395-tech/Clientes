@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jlc-solucoes",
+  "main": "worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "SUPABASE_URL": "https://xfzkpfwftffksswlxqno.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_mD1AVVFb6XIQtgHRpjdHVQ_hV4OA5u1"
+  }
+}
